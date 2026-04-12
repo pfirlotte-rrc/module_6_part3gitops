@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/pfirlotte-rrc/comp-4001-assignment-6-studentportfolio:fe22d2306a7b2794de9c659f0469fe1938e1142c
+          image: ghcr.io/pfirlotte-rrc/comp-4001-assignment-6-studentportfolio:03ed8eced91cfb664de3066b17d55ab9f9a24a69
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
