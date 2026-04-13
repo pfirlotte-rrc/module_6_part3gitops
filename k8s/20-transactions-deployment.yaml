@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/pfirlotte-rrc/comp-4001-assignment-6-transactions:03ed8eced91cfb664de3066b17d55ab9f9a24a69
+          image: ghcr.io/pfirlotte-rrc/comp-4001-assignment-6-transactions:48e87825078213538f4746251c53e295e02c2076
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
